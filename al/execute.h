@@ -55,9 +55,11 @@ namespace al
 
         u32 _8;
         u64 _C;
+        al::ExecuteTableHolderUpdate* _10;
         u64 _14;
         u32 _1C;
         u64 _20;
-        u64 _28;
+        //u64 _28;
+        al::ExecuteRequestKeeper _28; //This matches the code I have seen in al::ExecuteDirector::execute
     };
 };
